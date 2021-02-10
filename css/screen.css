@@ -35,7 +35,7 @@ h1 {
 
 h2 {
     font-size: 23px;
-    line-height: 32;
+    line-height: 32px;
     margin: 0 0 24px;
 }
 
@@ -102,15 +102,18 @@ hr {
 }
 
 a {
+    color: RoyalBlue;
+    transition: all .1s ease-in-out; /* De transition zorgt er voor dat elke link default een kleine animatie krijgt */
+}
 
+a:visited, /* :visited is voor links die je al bezocht hebt  */
+a:active { /* :active is voor op het moment dat er op geklikt wordt. */
+    color: Blueviolet;
 }
 
 a:hover,
 a:focus {
-
+    color: red;
 }
-
-a:visited,
-a:active {
-    
-}
+/* :hover is voor als je er over hovered met de cursor */
+/* :focus is voor als er als de link focus krijgt. Bijvoorbeeld als je door het document tabt. */
