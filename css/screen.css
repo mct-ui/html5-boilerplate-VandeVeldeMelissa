@@ -1,0 +1,18 @@
+html {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #111;
+    padding: 24px 24px 0 24px;
+    background-color: pink;
+}
+
+body {
+    max-width: 42em; /* 1em = de root font-size, de font-size die we in de html ingesteld hebben. Dus 16px in dit geval. Als we onze root font-size zouden vergroten naar 18px wordt de maximum breedte automatisch groter. */
+    margin: 0 auto;
+}
+
+::selection {
+    background: #44C8F5;
+    color: white;
+}
