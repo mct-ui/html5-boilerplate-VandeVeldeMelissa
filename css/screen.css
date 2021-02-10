@@ -5,6 +5,7 @@ html {
     color: #111;
     padding: 24px 24px 0 24px;
     background-color: pink;
+    scroll-behavior: smooth;
 }
 
 body {
