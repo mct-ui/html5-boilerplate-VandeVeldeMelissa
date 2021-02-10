@@ -16,3 +16,101 @@ body {
     background: #44C8F5;
     color: white;
 }
+
+img {
+    max-width: 100%; /* max-width: 100%; zorgt er voor dat elke image nooit breder wordt dan 100% en meeschaalt als de viewport kleiner wordt.  */
+    vertical-align: top; /* vertical-align: top; zorgt er voor dat images altijd bovenaan worden gealigneerd als ze bijvoorbeeld in andere elementen zitten. */
+}
+
+/* typography (grid 8px) */
+/* De ruimte tussen elementen wordt bepaald door de margin-bottom van het bovenste element. De margin-top laten we weg omdat die toch collapsed. */
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2 {
+    font-size: 23px;
+    line-height: 32;
+    margin: 0 0 24px;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-style: 16px;
+    line-height: 24px;
+    margin: 0 0 24px;
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+    margin: 0 0 24px;
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+    margin-bottom: 0;
+}
+
+blockquote {
+    font-style: italic;
+    font-style: inherit; /* Hiermee zeggen we dat alles wat in een blockquote zit de font-size en line-height moet overerven. */
+    line-height: inherit;
+    margin: 0 0 24px;
+    font-family: "Times New Roman", serif;
+}
+
+figcaption {
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 8px;
+    color: Grey;
+}
+
+ul,
+ol {
+    padding-left: 24px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: lightgrey;
+    margin: 0 0 24px;
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+    
+}
